@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday Roupa 🎂</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Roupa, this is for you 🎁</h1>
+    <img class="gif" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWgxbXo0MWx4ZHY1N2k0azhhZXRyMnA2Y2Q4a3J3MGVvazltOGJ3eCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Jr7i0lTVYIfsQ/giphy.gif" alt="Gift Gif">
+
+    <button onclick="showSurprise()">Click for Surprise 💖</button>
+
+    <div id="surprise" class="hidden">
+      <img class="gif" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjJhMWs2dmhwbGNwbDI4dXhuYTB6cDI1YXR6aDZhbGx6aGJoNWc0ZyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/F1zGww9QJz2xw/giphy.gif" alt="Hearts & Balloons">
+      <h2>Wish you many more happy returns of the day, Roupa 🎉🎈</h2>
+    </div>
+  </div>
+
+  <script>
+    function showSurprise() {
+      document.querySelector('button').style.display = 'none';
+      document.querySelector('.gif').style.display = 'none';
+      document.getElementById('surprise').classList.remove('hidden');
+    }
+  </script>
+</body>
+</html>
