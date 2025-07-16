@@ -7,18 +7,11 @@ body {
   font-family: 'Quicksand', sans-serif;
   color: #ffffff;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  text-align: center;
-}
-
-.container {
-  display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 90%;
-  padding: 20px;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
 }
 
 h1, p {
@@ -27,12 +20,12 @@ h1, p {
 }
 
 h1 {
-  font-size: 2.2em;
+  font-size: 2.5em;
   color: #ff66cc;
 }
 
 p {
-  font-size: 1.2em;
+  font-size: 1.3em;
   color: #dddddd;
 }
 
@@ -42,7 +35,6 @@ img {
   margin: 20px 0;
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
   animation: bounce 3s infinite;
-  display: block;
 }
 
 button {
@@ -68,7 +60,7 @@ button:hover {
 }
 
 footer {
-  margin-top: 30px;
+  margin-top: 40px;
   font-size: 1em;
   color: #888888;
 }
