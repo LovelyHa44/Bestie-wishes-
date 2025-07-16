@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.container {
+  padding: 50px 20px;
+}
+
+h1, h2 {
+  animation: fadeIn 2s ease-in-out;
+  color: #ffccff;
+}
+
+button {
+  padding: 12px 25px;
+  font-size: 1.2em;
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-top: 20px;
+  animation: bounce 1s infinite alternate;
+}
+
+button:hover {
+  background-color: #ff1493;
+}
+
+.gif {
+  width: 250px;
+  margin: 20px 0;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(255, 192, 203, 0.4);
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes bounce {
+  from { transform: translateY(0); }
+  to { transform: translateY(-10px); }
+}
